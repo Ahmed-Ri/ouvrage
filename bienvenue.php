@@ -1,2 +1,2 @@
 <?php
-echo'bienvenue a la page d"acceuil';
+echo 'bienvenue a la page d"acceuil';

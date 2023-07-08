@@ -1,18 +1,21 @@
 <?php
-/*include('db.php');
-if (!empty($email) && !empty($mdp) && !is_numeric($email)) {
+include('db.php');
+if (isset($_POST['email']) && isset($_POST['mdp'])) {
     $email = $_POST['email'];
     $mdp = $_POST['mdp'];
 
-    $sql = "SELECT*FROM utilisateur WHERE email=$email AND mdp=$mdp";
+    $sql = "SELECT * FROM utilisateur WHERE email='$email' AND mdp='$mdp'";
+
     $req = mysqli_query($conn, $sql);
+
     $num_ligne = mysqli_num_rows($req);
+    echo $num_ligne;
     if ($num_ligne > 0) {
         header("Location:bienvenue.php");
     } else {
-        echo "Adrese mail ou mot de passe incorectes";
+        echo "Adresse mail ou mot de passe incorectes";
     }
-}*/
+}
 
 
 
