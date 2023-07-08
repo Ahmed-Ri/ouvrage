@@ -9,7 +9,7 @@ if (isset($_POST['email']) && isset($_POST['mdp'])) {
     $req = mysqli_query($conn, $sql);
 
     $num_ligne = mysqli_num_rows($req);
-    echo $num_ligne;
+
     if ($num_ligne > 0) {
         header("Location:bienvenue.php");
     } else {
