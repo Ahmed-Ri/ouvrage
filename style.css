@@ -14,6 +14,7 @@ form{
 body{ 
     height: 100vh;
     display: flex;
+    background: blue;
 }
 form input{
     margin: 5px 0;
@@ -24,4 +25,7 @@ input [type='submit'] {
     border: none;
     cursor: pointer;
     box-shadow: 1px 1px 1px;
+}
+.error{
+    color: red;
 }
