@@ -52,12 +52,12 @@ if (isset($_POST['submit'])) {
 
 <body>
     <section>
-        <h1>inscription</h1>
+        <h1>Inscription</h1>
         <form action="inscription.php" method="POST">
-            <label for="">nom</label>
+            <label for="">Nom</label>
             <input type="text" name="nom" />
             <div class="error"><?php echo $errors['nomError'] ?></div>
-            <label for="">prénom</label>
+            <label for="">Prénom</label>
             <input type="text" name="prenom" />
             <div class="error"><?php echo $errors['prenomError'] ?></div>
             <label for="email">Adresse Mail</label>

@@ -13,7 +13,7 @@
 </head>
 <!-- vh-100 overflow-hidden -->
 
-<body class="vh-100 overflow-hidden">
+<body>
   <nav class="navbar navbar-expand-lg navbar-dark ">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,6 +41,36 @@
       </div>
     </div>
   </nav>
+  <div>
+    <h1>La Bibliothèque électronique du Lyon</h1>
+    <h4>Textes d'auteurs appartenant au domaine public</h4>
+  </div><br><br><br><br>
+  <div class="container">
+    <div class="card">
+      <img src="im3.jpg" alt="">
+      <h4>romans</h4>
+    </div>
+    <div class="card">
+      <img src="im2.jpg" alt="">
+      <h4>livres pour enfants</h4>
+    </div>
+    <div class="card">
+      <img src="im4.jpg" alt="">
+      <h4>livres de poésie</h4>
+    </div>
+    <div class="card">
+      <img src="im5.jpg" alt="">
+      <h4>magazines</h4>
+    </div>
+    <div class="card">
+      <img src="im6.jpg" alt="">
+      <h4>livres de recettes</h4>
+    </div>
+    <div class="card">
+      <img src="im8.jpg" alt="">
+      <h4>modes d’emploi</h4>
+    </div>
+  </div>
 
   <script src="style.js"></script>
 </body>

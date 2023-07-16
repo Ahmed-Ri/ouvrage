@@ -1,11 +1,40 @@
 body{
-    background: url('lune.jpeg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
+    background: rgb(29, 64, 95);
+    
     
 }
 ul li a{
-    color: aliceblue;
+    color: rgb(243, 237, 238);
 }
+h1{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 50px;
+}
+h4{
+    text-align: center;
+    color: rgb(238, 242, 243);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin: 20px 20px;
+    background: rgb(46, 104, 133);
+    box-shadow: 5px 5px 5px;
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+    margin: 20px 20px;
+    
+    
+}
+@media screen and (max-width: 800px) {
+    
+}
+

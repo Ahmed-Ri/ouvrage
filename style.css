@@ -14,7 +14,7 @@ form{
 body{ 
     height: 100vh;
     display: flex;
-    background: blue;
+    background: url(im1.webp);
 }
 form input{
     margin: 5px 0;
@@ -27,5 +27,19 @@ input [type='submit'] {
     box-shadow: 1px 1px 1px;
 }
 .error{
-    color: red;
+    color: rgb(243, 46, 7);
 }
+label{
+    color: aliceblue;
+}
+h1{
+    color: aliceblue;
+    text-decoration: underline;
+}
+a{
+    color: rgb(102, 102, 250);
+}
+P{
+    color: aliceblue;
+}
+
